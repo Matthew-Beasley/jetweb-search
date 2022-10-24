@@ -1,0 +1,26 @@
+{
+  "name": "jetweb-search",
+  "version": "1.0.1",
+  "description": "Google search provider",
+  "main": "jetweb-search.js",
+  "scripts": {
+    "test": "run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Matthew-Beasley/jet-search.git"
+  },
+  "keywords": [
+    "google",
+    "search"
+  ],
+  "author": "matt beasley @ jetweb",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Matthew-Beasley/jet-search/issues"
+  },
+  "homepage": "https://github.com/Matthew-Beasley/jet-search#readme",
+  "dependencies": {
+    "googlethis": "^1.5.0"
+  }
+}
