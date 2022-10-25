@@ -1,8 +1,7 @@
-# jetweb-search
+### jetweb-search
 Google search wrapper. Asychronously retrieves multiple pages of searches and returns them as a simple array of result objects. 
 It uses the google-this package under the hood so if you need finer control of your search check out that package.
-the googleSearch method takes to parameters. First the term which can be any syntax allowed by google, second the number of pages you want
-returned.
+The googleSearch method takes two parameters. First the term which can be any syntax allowed by google, second the number of pages you want returned.
 
 ## Example usage
 npm install jet-search<br>
