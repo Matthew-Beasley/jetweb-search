@@ -1,6 +1,6 @@
 {
   "name": "jetweb-search",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Google search provider",
   "main": "jetweb-search.js",
   "scripts": {
