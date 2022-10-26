@@ -1,5 +1,5 @@
 ### jetweb-search
-Google search wrapper. Asychronously retrieves multiple pages of searches and returns them as a simple array of result objects. 
+Google and Bing search wrapper. Asychronously retrieves multiple pages of searches and returns them as a simple array of result objects. 
 It uses the google-this package under the hood so if you need finer control of your search check out that package.
 The googleSearch method takes two parameters. First the term which can be any syntax allowed by google, second the number of pages you want returned. Added bingSearch method with same parameters. ex. let res = bingSearch('dog', 3)
 
