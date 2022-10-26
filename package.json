@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/Matthew-Beasley/jet-search#readme",
   "dependencies": {
+    "bing-scraper": "^1.4.11",
     "googlethis": "^1.5.0"
   }
 }
