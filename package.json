@@ -1,6 +1,6 @@
 {
   "name": "jetweb-search",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A very easy to use search provider. It uses only 2 parameters to retrieve an array of Google search results.",
   "main": "jetweb-search.js",
   "scripts": {
@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/Matthew-Beasley/jet-search#readme",
   "dependencies": {
+    "bing-scraper": "^1.4.11",
     "googlethis": "^1.5.0"
   }
 }
