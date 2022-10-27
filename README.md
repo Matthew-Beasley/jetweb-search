@@ -28,7 +28,7 @@ console.log(bingResults);<br><br>
       description: 'You have selected Yamaha XT 600. SABRE. Single Point Mount. JET. Single Point Mount. Two Point Mount. EGO. Will not fit this model.',
       url: 'https://barkbusters.net/what-fits-my/yamaha/xt600/',
       favicons: [Object]
-    },<br>
+    },<br><br>
     OrganicResult {
       title: 'yamaha xt600',
       description: 'Front Brake Clutch Levers Replacement for Yamaha YZ80 YZ100 YZ125 TW200 XT225 250 XT250 TTR250 IT125 IT200 XT350 XT600 TT600 MX100 BW200 TT250 TT350,Silver.',
