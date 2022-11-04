@@ -3,7 +3,7 @@ Google and Bing search wrapper. Asychronously retrieves multiple pages of either
 
 The googleSearch method takes two parameters. First the term which can be any syntax allowed by Google or Bing depending on which search you are doing. Second is the number of pages you want returned. You do a Microsoft Bing search (bingSearch(term, pages)) with the same parameters.<br>
 
-The search methods return a promise, so either async await or val.then() must be used.
+The search methods return a promise, so either async await or val.then() must be used. 
  
 
 
@@ -35,5 +35,8 @@ console.log(bingResults);<br><br>
       url: 'https://www.amazon.com/yamaha-xt600/s?k=yamaha+xt600',
       favicons: [Object]
     }<br>
-  ]
+  ]<br><br>
+
+
+  User agents are random to help keep searches anonomous. For better anonimity rotating ip's is required.
 
