@@ -10,7 +10,7 @@ The search methods return a promise, so either async await or val.then() must be
 ## Example usage
 npm install jetwebsearch<br><br>
 
-import { googleSearch, bingSearch } from 'jetsearch';<br><br>
+import { googleSearch, bingSearch } from 'jetwebsearch';<br><br>
 
 const googleResults = await googleSearch('yamaha xt500', 2);<br>
 console.log(googleResults);<br><br>
