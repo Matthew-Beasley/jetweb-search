@@ -1,5 +1,5 @@
-# jetweb-search
-Google and Bing search wrapper. Asychronously retrieves multiple pages of either a Bing or Google search and returns them as a simple array of result objects<br>.
+# jetwebsearch
+Google and Bing search wrapper. Asychronously retrieves multiple pages of either a Bing or Google search and returns them as a simple array of result objects. More data like image searches is in the works for a future release!<br>.
 
 The googleSearch method takes two parameters. First the term which can be any syntax allowed by Google or Bing depending on which search you are doing. Second is the number of pages you want returned. You do a Microsoft Bing search (bingSearch(term, pages)) with the same parameters.<br>
 
@@ -8,13 +8,12 @@ The search methods return a promise, so either async await or val.then() must be
 
 
 ## Example usage
-npm install jet-search<br><br>
+npm install jetwebsearch<br><br>
 
-const googleSearch = require('jet-search');<br>
-const bingSearch = require('jet-search');<br><br>
+import { googleSearch, bingSearch } from 'jet-search';<br><br>
 
 const googleResults = await googleSearch('yamaha xt500', 2);<br>
-console.log(results);<br><br>
+console.log(googleResults);<br><br>
 
 const bingResults = await bingSearch('yamaha xt600', 3);<br>
 console.log(bingResults);<br><br>
