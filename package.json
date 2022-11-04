@@ -1,6 +1,6 @@
 {
   "name": "jetwebsearch",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "A very easy to use search provider. It uses only 2 parameters to retrieve an array of Google search results.",
   "main": "jetweb-search.js",
   "type": "module",
